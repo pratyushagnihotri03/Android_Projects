@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="username">Pratyush Agnihotri</string>
+    <string name="jobRole">Technical Consulting</string>
+    <string name="company">axxessio GmbH</string>
+    <string name="phone">+49 1122334455</string>
+    <string name="email">email@domain.com</string>
+</resources>
