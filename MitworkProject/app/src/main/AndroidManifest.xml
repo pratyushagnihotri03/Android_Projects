@@ -9,14 +9,42 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ColorsActivity"
-            android:label="@string/colorsActivity_name"/>
-        <activity android:name=".FamilyActivity"
-            android:label="@string/familyActivity_name"/>
-        <activity android:name=".PhrasesActivity"
-            android:label="@string/phrasesActivity_name"/>
-        <activity android:name=".NumbersActivity"
-            android:label="@string/numbersActivity_name"/>
+        <activity
+            android:name=".ColorsActivity"
+            android:label="@string/colorsActivity_name"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".FamilyActivity"
+            android:label="@string/familyActivity_name"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="@string/phrasesActivity_name"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="@string/numbersActivity_name"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
