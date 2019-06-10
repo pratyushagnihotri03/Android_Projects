@@ -1,3 +1,23 @@
 <resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Learn German</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors (die Farben)</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers (die Zahlen)</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family (die Familie)</string>
+    <string name="category_greetings">Greetings (die Grüße)</string>
+
+    <string name="greetingsActivity_name">Greetings (die Grüße)</string>
+    <string name="familyActivity_name">Family (die Familie)</string>
+    <string name="colorsActivity_name">Colors (die Farben)</string>
+    <string name="phrasesActivity_name">Phrases</string>
+    <string name="numbersActivity_name">Numbers (die Zahlen)</string>
 </resources>
